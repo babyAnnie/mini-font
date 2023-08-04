@@ -30,6 +30,6 @@
   publish: {
     provider: "generic",
     channel: "latest",
-    url: "https://github.com/electron-vite/mini-font/releases/download/v0.9.9/",
+    url: "http://localhost:8888/", //启动本地的8888端口的服务，把最新打包的latest.yml和exe安装包放上去，应用会自动检查更新
   },
 }
